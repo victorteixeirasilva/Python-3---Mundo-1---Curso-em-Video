@@ -1,0 +1,7 @@
+info = input('Digite algo = ')
+print('=== Vamos Mostrar Algumas Informações O Que Foi Digitado ===')
+print('Foi digitao = {}'.format(info))
+print('É númerico = {}'.format(info.isnumeric()))
+print('É alphanúmerico = {}'.format(info.isalnum()))
+print('É alpha = {}'.format(info.isalpha()))
+print('Tipo: {}'.format(type(info)))
