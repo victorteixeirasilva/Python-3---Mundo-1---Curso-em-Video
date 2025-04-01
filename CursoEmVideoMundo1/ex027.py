@@ -6,3 +6,6 @@ primeiro = Ana
 último = Souza
 
 """
+nome = input("Informe seu nome completo: ")
+print("Primeiro = {}".format(nome.split()[0]))
+print("Último = {}".format(nome.split()[len(nome.split())-1]))
