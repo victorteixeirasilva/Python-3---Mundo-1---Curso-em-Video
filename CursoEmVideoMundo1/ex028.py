@@ -13,4 +13,4 @@ numeroSugestão = int(input("Tente adivinhar o número: "))
 if numero == numeroSugestão:
     print("Você acertou!")
 else:
-    print("Você Errou!"
+    print("Você Errou!")
