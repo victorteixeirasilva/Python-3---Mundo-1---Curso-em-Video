@@ -24,3 +24,4 @@ elif opcao == 4:
     print("O preço a ser pago é R${:.2f}".format(preco+(preco*0.2)))
 else:
     print("Opção invalida!")
+
