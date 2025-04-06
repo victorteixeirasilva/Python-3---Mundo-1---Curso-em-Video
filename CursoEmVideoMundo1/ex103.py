@@ -3,3 +3,8 @@
 #
 # O programa deverá ser capaz de mostrar a ficha do jogador, mesmo que algum dado não
 # tenha sido informado corretamente.
+def ficha(nome="<desconhecido>", gols=0):
+    print(f"O jogador {nome}, fez {gols} gols.")
+
+ficha("Victor")
+ficha(gols=5)
