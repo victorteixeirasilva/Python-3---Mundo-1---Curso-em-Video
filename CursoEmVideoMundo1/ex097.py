@@ -10,3 +10,10 @@ Saída:
  Olá, Mundo!
 ~~~~~~~~~~~~~
 """
+def escreva(msg):
+    tamanhoLinha = len(msg)*2
+    print("~"*tamanhoLinha)
+    print(f"{msg:^{tamanhoLinha}}")
+    print("~"*tamanhoLinha)
+
+escreva("Olá mundo!")
