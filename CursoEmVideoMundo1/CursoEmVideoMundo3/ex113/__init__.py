@@ -13,16 +13,15 @@ def leiaint(msg):
 
 def leiaFloat(msg):
     while True:
-        valor = input(msg)
-        valorFloat = float(valor)
-        return valorFloat
+        try:
+            valor = float(input(msg))
+            return valor
+        except ValueError:
+            print("Erro valor Float invalido:")
+            continue
+
 
 variavel = leiaint("Informe um int: ")
 print(variavel)
-try:
-    variavel2 = leiaFloat("Informe um float: ")
-except ValueError:
-    print("Erro valor Float invalido:")
-    variavel2 = leiaFloat("Informe um float: ")
-else:
-    print(variavel2)
+variavel2 = leiaFloat("Informe um float: ")
+print(variavel2)
