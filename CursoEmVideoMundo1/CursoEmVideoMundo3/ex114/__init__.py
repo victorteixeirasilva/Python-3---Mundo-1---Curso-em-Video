@@ -1,0 +1,1 @@
+# Crie um código em Python que teste se um site Pudim está acessivel pelo computador usado.
